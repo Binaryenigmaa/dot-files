@@ -1,0 +1,13 @@
+[
+  {
+    "key": "alt+j",
+    "command": "vscode-neovim.escape",
+    "when": "editorTextFocus && neovim.mode == insert"
+  },
+  {
+    "key": "alt+e",
+    "command": "vscode-neovim.send",
+    "args": "<C-o>$",
+    "when": "editorTextFocus && neovim.mode == insert"
+  }
+]
