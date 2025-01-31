@@ -9,5 +9,43 @@
     "command": "vscode-neovim.send",
     "args": "<C-o>$",
     "when": "editorTextFocus && neovim.mode == insert"
+  },
+    {
+    "key": "alt+o",
+    "command": "vscode-neovim.send",
+    "args": "<C-o>o",
+    "when": "editorTextFocus && neovim.mode == insert"
+  },
+  {
+    "key": "alt+shift+o",
+    "command": "vscode-neovim.send",
+    "args": "<C-o>O",
+    "when": "editorTextFocus && neovim.mode == insert"
+  },
+  {
+    "key": "space",
+    "command": "vscode-neovim.send",
+    "args": "<Cmd>let mapleader=' '<CR>",
+    "when": "editorTextFocus && neovim.mode == normal"
+  },
+  {
+    "key": "space e",
+    "command": "workbench.action.toggleSidebarVisibility",
+    "when": "editorTextFocus && neovim.mode == normal"
+  },
+  {
+    "key": "space e",
+    "command": "workbench.files.action.focusFilesExplorer",
+    "when": "explorerViewletVisible"
+  },
+  {
+    "key": "ctrl+a",
+    "command": "editor.action.selectAll",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+c",
+    "command": "editor.action.clipboardCopyAction",
+    "when": "editorTextFocus"
   }
 ]
